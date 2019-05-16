@@ -12,7 +12,7 @@ npm i vue-owlcarouselbox
 ## Usage
 
 ```html
-<div class="container-fluid max-content">
+<div class="container-fluid">
     <no-ssr>
         <Owl :options="options">
             <div class="item">

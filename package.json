@@ -1,21 +1,27 @@
 {
   "name": "vue-owlcarouselbox",
-  "version": "1.0.0",
-  "description": "A Vue.js component that displays a owl carousel.",
-  "main": "src/OwlCarouselBox.vue",
+  "version": "1.0.1",
+  "description": "",
+  "main": "src/plugin.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "build": "webpack --config ./webpack.config.js",
-  },
-  "homepage": "https://github.com/patrykcode/vue-owlcarousel.git",
-  "author": "PatrykCode",
-  "license": "MIT",
-  "dependencies": {
+    
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrykcode/vue-owlcarousel"
+    "url": "git+https://github.com/patrykcode/vue-owlcarousel.git"
   },
-  "devDependencies": {
-    "vue": "^2.2.1",
-  }
+  "keywords": [
+    "vue",
+    "owl2",
+    "carousel",
+    "vue-owlcarouselbox"
+  ],
+  "author": "PatrykP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrykcode/vue-owlcarousel/issues"
+  },
+  "homepage": "https://github.com/patrykcode/vue-owlcarousel#readme"
 }

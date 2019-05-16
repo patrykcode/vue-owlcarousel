@@ -14,7 +14,7 @@
 </template>
 
 <script>
-    import Owl from '~/components/OwlCarouselBox';
+    import Owl from 'OwlCarouselBox';
 
     export default {
         head: {

@@ -28,7 +28,7 @@ npm i vue-owlcarouselbox
 
 ```javascript
 
-    import Owl from '~/components/OwlCarouselBox';
+    import Owl from 'OwlCarouselBox';
 
     export default {
         components: {

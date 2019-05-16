@@ -14,7 +14,7 @@
 </template>
 
 <script>
-    import Owl from 'OwlCarouselBox';
+    import Owl from 'vue-owlcarouselbox';
 
     export default {
         head: {

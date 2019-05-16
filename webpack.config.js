@@ -50,7 +50,7 @@ module.exports = [
     }
   }),
   merge(config, {
-    entry: path.resolve(__dirname + '/src/galleryBox.vue'),
+    entry: path.resolve(__dirname + '/src/OwlCarouselBox.vue'),
     output: {
       filename: 'vue-owlcarousel.js',
       libraryTarget: 'umd',

@@ -20,7 +20,17 @@ var config = {
 	    },
 	    {
 		test: /\.css$/,
-		loader: 'style!less!css'
+		loaders: [
+		    'vue-style-loader',
+		    'css-loader'
+		]
+	    },
+	    {
+		test: /\.(png|jpg|gif|svg)$/,
+		loader: 'file-loader',
+		options: {
+		    name: '[name].[ext]?[hash]'
+		}
 	    }
 	]
     },
